@@ -1,0 +1,1291 @@
+[
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "GetAllAppointmentsForStaff",
+    "RelativePath": "api/Appointment/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "GetDoctorAppointments",
+    "RelativePath": "api/Appointment/approved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "BookAppointment",
+    "RelativePath": "api/Appointment/booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BookAppointmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "CancelAppointmentByDoctor",
+    "RelativePath": "api/Appointment/cancel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "reason",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "DoctorCheckout",
+    "RelativePath": "api/Appointment/DoctorCheckout/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "GetMyAppointments",
+    "RelativePath": "api/Appointment/mine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "GetAppointmentsOfMyPatients",
+    "RelativePath": "api/Appointment/mine-patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "PatientCheckIn",
+    "RelativePath": "api/Appointment/PatientCheckin/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "AddReExaminationAppointment",
+    "RelativePath": "api/Appointment/re-examination",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HIVTreatment.DTOs.ReExaminationAppointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.AppointmentController",
+    "Method": "CancelAppointmentByPatient",
+    "RelativePath": "api/Appointment/rejected/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "reason",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatController",
+    "Method": "Chat",
+    "RelativePath": "api/Chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HIVTreatment.Models.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetAllARVRegiemns",
+    "RelativePath": "api/Doctor/AllARVProtocol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/Doctor/AllDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetARVById",
+    "RelativePath": "api/Doctor/ARVProtocol/{ARVProtocolID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ARVProtocolID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetScheduleByDoctorId",
+    "RelativePath": "api/Doctor/DoctorWorkSchedule/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetInfoDoctorByUserId",
+    "RelativePath": "api/Doctor/GetDoctorByUserID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "GetInfoDoctorById",
+    "RelativePath": "api/Doctor/InfoDoctor/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.DoctorController",
+    "Method": "updateARVRegimen",
+    "RelativePath": "api/Doctor/UpdateARVProtocol",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ARVProtocolDTO",
+        "Type": "HIVTreatment.DTOs.ARVProtocolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "GetAllPatient",
+    "RelativePath": "api/EditProfileUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "GetInfoPatientById",
+    "RelativePath": "api/EditProfileUser/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "AdminOnlyEndpoint",
+    "RelativePath": "api/EditProfileUser/admin-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "DoctorOnlyEndpoint",
+    "RelativePath": "api/EditProfileUser/doctor-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "EditDoctorProfile",
+    "RelativePath": "api/EditProfileUser/edit-doctor-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editProfileDoctorDTO",
+        "Type": "HIVTreatment.DTOs.EditprofileDoctorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "EditProfile",
+    "RelativePath": "api/EditProfileUser/edit-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editProfileUserDTO",
+        "Type": "HIVTreatment.DTOs.EditProfileUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.EditProfileUserController",
+    "Method": "GetPatientById",
+    "RelativePath": "api/EditProfileUser/patient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "CreateLabTest",
+    "RelativePath": "api/LabTest/AddLabTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CreateLabTestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "GetAllLabTests",
+    "RelativePath": "api/LabTest/AllLabTests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "DeleteLabTest",
+    "RelativePath": "api/LabTest/DeleteLabTest/{labTestId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "labTestId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "AddLabTestAppointment",
+    "RelativePath": "api/LabTest/LabTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HIVTreatment.DTOs.BookingLabTestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "GetById",
+    "RelativePath": "api/LabTest/LabTest/{LabTestID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LabTestID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "GetLabTestsByPatient",
+    "RelativePath": "api/LabTest/LabTestsByPatient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "GetAllLabtestBookingsForStaff",
+    "RelativePath": "api/LabTest/Staff/LabtestBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LabTestController",
+    "Method": "UpdateLabTest",
+    "RelativePath": "api/LabTest/UpdateLabTest/{labTestId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "labTestId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "UpdateLabTestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LoginController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Login/Forget Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPasswordDTO",
+        "Type": "HIVTreatment.DTOs.ForgetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "HIVTreatment.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LoginController",
+    "Method": "Logout",
+    "RelativePath": "api/Login/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.LoginController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/Login/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "AddARVProtocol",
+    "RelativePath": "api/Manager/AddARVProtocol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CreateARVProtocolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/Manager/AddDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HIVTreatment.DTOs.CreateDoctorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "AddDoctorWorkSchedule",
+    "RelativePath": "api/Manager/AddDoctorWorkSchedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HIVTreatment.DTOs.EditDoctorWorkScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "AddManager",
+    "RelativePath": "api/Manager/AddManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AddManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "AddStaff",
+    "RelativePath": "api/Manager/AddStaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffDTO",
+        "Type": "HIVTreatment.DTOs.CreateStaffDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllARVRegiemns",
+    "RelativePath": "api/Manager/AllARVProtocol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/Manager/AllDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllDoctorWorkSchedules",
+    "RelativePath": "api/Manager/AllDoctorWorkSchedules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllStaff",
+    "RelativePath": "api/Manager/AllStaff",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Manager/AllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetARVById",
+    "RelativePath": "api/Manager/ARVProtocol/{ARVProtocolID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ARVProtocolID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Manager/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ManagerDashboardDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "DeleteDoctorWorkSchedule",
+    "RelativePath": "api/Manager/DeleteDoctorWorkSchedule/{scheduleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "DeleteManager",
+    "RelativePath": "api/Manager/DeleteManager/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "DeleteStaff",
+    "RelativePath": "api/Manager/DeleteStaff/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetScheduleByDoctorId",
+    "RelativePath": "api/Manager/DoctorWorkSchedule/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetDoctorWorkScheduleDetail",
+    "RelativePath": "api/Manager/DoctorWorkScheduleDetail/{scheduleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetAllManagers",
+    "RelativePath": "api/Manager/GetAllManagers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetManagerById",
+    "RelativePath": "api/Manager/GetManagerById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetInfoDoctorById",
+    "RelativePath": "api/Manager/InfoDoctor/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetStaffById",
+    "RelativePath": "api/Manager/Staff/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "updateARVRegimen",
+    "RelativePath": "api/Manager/UpdateARVProtocol",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ARVProtocolDTO",
+        "Type": "HIVTreatment.DTOs.ARVProtocolDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "EditDoctor",
+    "RelativePath": "api/Manager/UpdateDoctor/{doctorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "EditDoctorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "EditDoctorWorkSchedule",
+    "RelativePath": "api/Manager/UpdateDoctorWorkSchedule/{scheduleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HIVTreatment.DTOs.EditDoctorWorkScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "UpdateManager",
+    "RelativePath": "api/Manager/UpdateManager/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "UpdateManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "UpdateStaff",
+    "RelativePath": "api/Manager/UpdateStaff/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "staffDTO",
+        "Type": "HIVTreatment.DTOs.UpdateStaffDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.ManagerController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Manager/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.MedicationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Medication/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.MedicationController",
+    "Method": "GetById",
+    "RelativePath": "api/Medication/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.PrescriptionController",
+    "Method": "AddPrescription",
+    "RelativePath": "api/Prescription/add-prescription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescriptionDto",
+        "Type": "HIVTreatment.DTOs.PrescriptionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.PrescriptionController",
+    "Method": "GetByPatientId",
+    "RelativePath": "api/Prescription/by-patient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.PrescriptionController",
+    "Method": "GetAllPrescriptions",
+    "RelativePath": "api/Prescription/get-all-prescriptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.PrescriptionController",
+    "Method": "GetPrescriptionById",
+    "RelativePath": "api/Prescription/get-prescription-by-id/{prescriptionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescriptionId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.PrescriptionController",
+    "Method": "UpdatePrescription",
+    "RelativePath": "api/Prescription/update-prescription",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescriptionDto",
+        "Type": "HIVTreatment.DTOs.UpdatePrescriptionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.RegisterController",
+    "Method": "RegisterByAdmin",
+    "RelativePath": "api/Register/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserDTO",
+        "Type": "HIVTreatment.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.RegisterController",
+    "Method": "Register",
+    "RelativePath": "api/Register/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "HIVTreatment.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.RegisterController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Register/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "HIVTreatment.DTOs.UpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.RoleController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Role/GetAllRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.RoleController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Role/GetRoleById/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.StaffAppointmentController",
+    "Method": "GetAllAppointments",
+    "RelativePath": "api/staff/appointments/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.StaffAppointmentController",
+    "Method": "GetCancelledAppointments",
+    "RelativePath": "api/staff/appointments/cancelled",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.StaffAppointmentController",
+    "Method": "GetCompletedAppointments",
+    "RelativePath": "api/staff/appointments/completed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.StaffAppointmentController",
+    "Method": "GetSuccessfulAppointments",
+    "RelativePath": "api/staff/appointments/successful",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "AddTreatmentPlan",
+    "RelativePath": "api/TreatmentPlan/AddTreatmentPlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "treatmentPlanDTO",
+        "Type": "HIVTreatment.DTOs.TreatmentPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetAll",
+    "RelativePath": "api/TreatmentPlan/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetByPatient",
+    "RelativePath": "api/TreatmentPlan/by-patient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetByDoctor",
+    "RelativePath": "api/TreatmentPlan/doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetARVByPatient",
+    "RelativePath": "api/TreatmentPlan/GetARVByPatient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetPrescriptionByPatient",
+    "RelativePath": "api/TreatmentPlan/GetPrescriptionByPatient/{patientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetTreatmentPlanById",
+    "RelativePath": "api/TreatmentPlan/GetTreatmentPlanById/{treatmentPlanId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "treatmentPlanId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "GetByPatientUser",
+    "RelativePath": "api/TreatmentPlan/patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HIVTreatment.Controllers.TreatmentPlanController",
+    "Method": "UpdateTreatmentPlan",
+    "RelativePath": "api/TreatmentPlan/UpdateTreatmentPlan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTreatmentPlanDTO",
+        "Type": "HIVTreatment.DTOs.UpdateTreatmentPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

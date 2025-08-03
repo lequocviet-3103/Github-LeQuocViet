@@ -1,0 +1,179 @@
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

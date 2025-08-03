@@ -1,0 +1,37 @@
+﻿<Window x:Class="DNASystem.InvoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="InvoiceWindow" Height="450" Width="800">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Thông tin hóa đơn" FontSize="20" FontWeight="Bold" Margin="0 0 0 20" />
+
+            <TextBlock Text="Mã hóa đơn:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtInvoiceId" Margin="0 0 0 10" />
+
+            <TextBlock Text="Tên dịch vụ:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtServiceName" Margin="0 0 0 10" />
+
+            <TextBlock Text="Tên khách hàng:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtCustomerName" Margin="0 0 0 10" />
+
+            <TextBlock Text="Tên nhân viên:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtStaffName" Margin="0 0 0 10" />
+
+
+            <TextBlock Text="Ngày tạo hóa đơn:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtDate" Margin="0 0 0 10" />
+
+            <TextBlock Text="Tổng tiền:" FontWeight="SemiBold" />
+            <TextBlock x:Name="txtPrice" Margin="0 0 0 10" />
+
+
+
+            <Button x:Name="BtnClose" Content="Đóng" Width="100" Margin="0 20 0 0" HorizontalAlignment="Left" Click="BtnClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

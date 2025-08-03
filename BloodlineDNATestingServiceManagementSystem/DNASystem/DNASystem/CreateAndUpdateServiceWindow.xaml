@@ -1,0 +1,314 @@
+﻿<Window x:Class="DNASystem.CreateAndUpdateServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="CreateAndUpdateServiceWindow" Height="750" Width="800" Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <!-- Gradient Brushes -->
+        <LinearGradientBrush x:Key="HeaderGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#667eea" Offset="0"/>
+            <GradientStop Color="#764ba2" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#f5f7fa" Offset="0"/>
+            <GradientStop Color="#c3cfe2" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="ButtonGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#667eea" Offset="0"/>
+            <GradientStop Color="#764ba2" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="ExitButtonGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#e74c3c" Offset="0"/>
+            <GradientStop Color="#c0392b" Offset="1"/>
+        </LinearGradientBrush>
+
+        <!-- TextBox Style -->
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Padding" Value="15,12"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderBrush" Value="#e0e0e0"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                        Focusable="false" 
+                                        HorizontalScrollBarVisibility="Hidden" 
+                                        VerticalScrollBarVisibility="Hidden"
+                                        Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#667eea"/>
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#667eea" Opacity="0.4" ShadowDepth="0" BlurRadius="12"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="#9bb5ff"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Label Style -->
+        <Style x:Key="ModernLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,15,0"/>
+        </Style>
+
+        <!-- Button Style -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ButtonGradient}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="20,12"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="10"
+                                Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#667eea" Opacity="0.3" ShadowDepth="4" BlurRadius="12"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="-2"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#667eea" Opacity="0.5" ShadowDepth="6" BlurRadius="18"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Exit Button Style -->
+        <Style x:Key="ExitButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="{StaticResource ExitButtonGradient}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="10"
+                                Padding="{TemplateBinding Padding}">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#e74c3c" Opacity="0.3" ShadowDepth="4" BlurRadius="12"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="-2"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="border" Property="Effect">
+                                    <Setter.Value>
+                                        <DropShadowEffect Color="#e74c3c" Opacity="0.5" ShadowDepth="6" BlurRadius="18"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Window Close Button Style -->
+        <Style x:Key="CloseButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#e74c3c"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="{StaticResource BackgroundGradient}" CornerRadius="15">
+        <Border Background="White" CornerRadius="15" Margin="20">
+            <Border.Effect>
+                <DropShadowEffect Color="Black" Opacity="0.2" ShadowDepth="10" BlurRadius="30"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Header -->
+                <Border Grid.Row="0" Background="{StaticResource HeaderGradient}" CornerRadius="15,15,0,0">
+                    <Grid Margin="30,20">
+                        <TextBlock Text="Quản lý dịch vụ xét nghiệm" 
+                                 FontSize="28" FontWeight="SemiBold" 
+                                 Foreground="White" 
+                                 HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                        <Button Content="✕" Style="{StaticResource CloseButton}"
+                              HorizontalAlignment="Right" VerticalAlignment="Center"
+                              Click="txtExit_Click"/>
+                    </Grid>
+                </Border>
+
+                <!-- Content -->
+                <Grid Grid.Row="1" Margin="40,30">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Form Section -->
+                    <StackPanel Grid.Column="0">
+                        <!-- Service ID -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Mã dịch vụ" Style="{StaticResource ModernLabel}"/>
+                            <TextBox Grid.Column="1" x:Name="txtServiceID" Style="{StaticResource ModernTextBox}"/>
+                        </Grid>
+
+                        <!-- Service Type -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Loại dịch vụ" Style="{StaticResource ModernLabel}"/>
+                            <TextBox Grid.Column="1" x:Name="txtServiceType" Style="{StaticResource ModernTextBox}"/>
+                        </Grid>
+
+                        <!-- Service Name -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Tên dịch vụ" Style="{StaticResource ModernLabel}"/>
+                            <TextBox Grid.Column="1" x:Name="txtServiceName" Style="{StaticResource ModernTextBox}"/>
+                        </Grid>
+
+                        <!-- Service Price -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Giá dịch vụ" Style="{StaticResource ModernLabel}"/>
+                            <TextBox Grid.Column="1" x:Name="txtPrice" Style="{StaticResource ModernTextBox}"/>
+                        </Grid>
+
+                        <!-- Description -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Mô tả" Style="{StaticResource ModernLabel}" VerticalAlignment="Top" Margin="0,12,15,0"/>
+                            <TextBox Grid.Column="1" x:Name="txtDescription" 
+                                   Style="{StaticResource ModernTextBox}"
+                                   Height="100" TextWrapping="Wrap" AcceptsReturn="True"
+                                   VerticalScrollBarVisibility="Auto"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Action Buttons -->
+                    <StackPanel Grid.Column="1" Margin="30,0,0,0" VerticalAlignment="Top">
+                        <Button x:Name="txtSave" Content="💾 Lưu" 
+                              Style="{StaticResource ModernButton}"
+                              Width="140" Height="50" Margin="0,0,0,20"
+                              Click="txtSave_Click"/>
+
+                        <Button x:Name="txtExit" Content="🚪 Thoát" 
+                              Style="{StaticResource ExitButton}"
+                              Width="140" Height="50"
+                              Click="txtExit_Click"/>
+
+                        <!-- Info Panel -->
+                        <Border Background="#f8f9fa" CornerRadius="10" Padding="20" Margin="0,40,0,0">
+                            <StackPanel>
+                                <TextBlock Text="💡 Hướng dẫn" FontWeight="SemiBold" FontSize="16" Foreground="#333" Margin="0,0,0,10"/>
+                                <TextBlock Text="• Điền đầy đủ thông tin dịch vụ" FontSize="14" Foreground="#666" Margin="0,0,0,5"/>
+                                <TextBlock Text="• Giá dịch vụ nhập theo VNĐ" FontSize="14" Foreground="#666" Margin="0,0,0,5"/>
+                                <TextBlock Text="• Mô tả chi tiết về dịch vụ" FontSize="14" Foreground="#666" Margin="0,0,0,5"/>
+                                <TextBlock Text="• Nhấn Lưu để hoàn tất" FontSize="14" Foreground="#666"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

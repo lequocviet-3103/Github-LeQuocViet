@@ -1,0 +1,449 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\blogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\contactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\contactwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\dnatestingservicelanding.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\dnatestingservicelanding.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\dnatestingservicelanding.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\dnatestingservicelanding.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\customerprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\customerprofilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\createandupdateservicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\createandupdateservicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\aboutuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\aboutuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\testresultwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\usermanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\usermanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\contactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\contactwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\blogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\aboutuswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\aboutuswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\adminhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|c:\\users\\trung\\downloads\\se1848-prn212-group4\\se1848-prn212-group4\\se1848-prn212-group4\\dnasystem\\dnasystem\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6B2928E9-C736-49A1-8E40-8895A34CE575}|DNASystem\\DNASystem.csproj|solutionrelative:dnasystem\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DashboardPage.xaml",
+              "RelativeToolTip": "DNASystem\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:54:13.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DNATestingServiceLanding.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNATestingServiceLanding.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\DNATestingServiceLanding.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNATestingServiceLanding.xaml",
+              "RelativeToolTip": "DNASystem\\DNATestingServiceLanding.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:54:14.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DNATestingServiceLanding.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNATestingServiceLanding.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\DNATestingServiceLanding.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\DNATestingServiceLanding.xaml.cs",
+              "RelativeToolTip": "DNASystem\\DNATestingServiceLanding.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:54:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\ContactWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\ContactWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\ContactWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\ContactWindow.xaml.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwBcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:53:59.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BlogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\BlogWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BlogWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\BlogWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:53:18.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerProfileWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CustomerProfileWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\CustomerProfileWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CustomerProfileWindow.xaml",
+              "RelativeToolTip": "DNASystem\\CustomerProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:54:11.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateAndUpdateServiceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CreateAndUpdateServiceWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\CreateAndUpdateServiceWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\CreateAndUpdateServiceWindow.xaml",
+              "RelativeToolTip": "DNASystem\\CreateAndUpdateServiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:54:10.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\appsettings.json",
+              "RelativeDocumentMoniker": "DNASystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\appsettings.json",
+              "RelativeToolTip": "DNASystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T14:02:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\App.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\App.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\App.xaml",
+              "RelativeToolTip": "DNASystem\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T14:03:53.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AboutUsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AboutUsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\AboutUsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AboutUsWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\AboutUsWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA6wGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:51:00.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\HomeWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\HomeWindow.xaml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:55:34.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwJUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:55:58.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\HomeWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\HomeWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\HomeWindow.xaml",
+              "RelativeToolTip": "DNASystem\\HomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:55:22.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\LoginWindow.xaml",
+              "RelativeToolTip": "DNASystem\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:55:50.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestResultWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\TestResultWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\TestResultWindow.xaml",
+              "RelativeToolTip": "DNASystem\\TestResultWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:56:37.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\UserManagementPage.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml",
+              "RelativeToolTip": "DNASystem\\UserManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:56:24.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\UserManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\UserManagementPage.xaml.cs",
+              "RelativeToolTip": "DNASystem\\UserManagementPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:56:26.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\ContactWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\ContactWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\ContactWindow.xaml",
+              "RelativeToolTip": "DNASystem\\ContactWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:53:49.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DNASystem\\BookingWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml.cs",
+              "RelativeToolTip": "DNASystem\\BookingWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:53:40.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\BookingWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BookingWindow.xaml",
+              "RelativeToolTip": "DNASystem\\BookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:53:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BlogWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BlogWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\BlogWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\BlogWindow.xaml",
+              "RelativeToolTip": "DNASystem\\BlogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:52:13.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AdminWindow.xaml",
+              "RelativeToolTip": "DNASystem\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:52:10.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminHomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AdminHomePage.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\AdminHomePage.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AdminHomePage.xaml",
+              "RelativeToolTip": "DNASystem\\AdminHomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:52:08.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AddUserWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\AddUserWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AddUserWindow.xaml",
+              "RelativeToolTip": "DNASystem\\AddUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:52:07.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AboutUsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AboutUsWindow.xaml",
+              "RelativeDocumentMoniker": "DNASystem\\AboutUsWindow.xaml",
+              "ToolTip": "C:\\Users\\trung\\Downloads\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\SE1848-PRN212-Group4\\DNASystem\\DNASystem\\AboutUsWindow.xaml",
+              "RelativeToolTip": "DNASystem\\AboutUsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T13:50:25.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

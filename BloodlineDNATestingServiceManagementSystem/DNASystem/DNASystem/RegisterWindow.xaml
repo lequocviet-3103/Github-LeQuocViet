@@ -1,0 +1,201 @@
+﻿<Window x:Class="DNASystem.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="800" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <!-- Gradient Background -->
+        <LinearGradientBrush x:Key="BackgroundGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#667eea" Offset="0"/>
+            <GradientStop Color="#764ba2" Offset="1"/>
+        </LinearGradientBrush>
+
+        <!-- TextBox Style -->
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#ddd"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                        Margin="{TemplateBinding Padding}"
+                                        VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#667eea"/>
+                                <Setter Property="BorderThickness" Value="2"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="#999"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- PasswordBox Style -->
+        <Style x:Key="ModernPasswordBox" TargetType="PasswordBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#ddd"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                        Margin="{TemplateBinding Padding}"
+                                        VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#667eea"/>
+                                <Setter Property="BorderThickness" Value="2"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" Value="#999"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Label Style -->
+        <Style x:Key="ModernLabel" TargetType="Label">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        <!-- Button Style -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="#667eea"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="8"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#5a67d8"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#4c51bf"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="{StaticResource BackgroundGradient}">
+        <!-- Main Content Container -->
+        <Border Background="White" 
+                CornerRadius="15" 
+                Margin="30"
+                Padding="0">
+            <Border.Effect>
+                <DropShadowEffect Color="Black" 
+                                Direction="270" 
+                                ShadowDepth="3" 
+                                BlurRadius="10" 
+                                Opacity="0.2"/>
+            </Border.Effect>
+
+            <Grid Margin="40,30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Title -->
+                <TextBlock Grid.Row="0" 
+                          Text="Create Account" 
+                          FontFamily="Segoe UI" 
+                          FontSize="28" 
+                          FontWeight="Bold" 
+                          Foreground="#333"
+                          HorizontalAlignment="Center"
+                          Margin="0,0,0,20"/>
+
+                <!-- Email -->
+                <Label Grid.Row="1" Content="Email Address" Style="{StaticResource ModernLabel}"/>
+                <TextBox Grid.Row="2" x:Name="txtEmail" Style="{StaticResource ModernTextBox}" Margin="0,0,0,15"/>
+
+                <!-- Username -->
+                <Label Grid.Row="3" Content="Username" Style="{StaticResource ModernLabel}"/>
+                <TextBox Grid.Row="4" x:Name="txtUsername" Style="{StaticResource ModernTextBox}" Margin="0,0,0,15"/>
+
+                <!-- Password -->
+                <Label Grid.Row="5" Content="Password" Style="{StaticResource ModernLabel}"/>
+                <PasswordBox Grid.Row="6" x:Name="txtPassword" Style="{StaticResource ModernPasswordBox}" Margin="0,0,0,15"/>
+
+                <!-- Full Name -->
+                <Label Grid.Row="7" Content="Full Name" Style="{StaticResource ModernLabel}"/>
+                <TextBox Grid.Row="8" x:Name="txtFullname" Style="{StaticResource ModernTextBox}" Margin="0,0,0,15"/>
+
+                <!-- Phone -->
+                <Label Grid.Row="9" Content="Phone Number" Style="{StaticResource ModernLabel}"/>
+                <TextBox Grid.Row="10" x:Name="txtPhone" Style="{StaticResource ModernTextBox}" Margin="0,0,0,15"/>
+
+                <!-- Address -->
+                <Label Grid.Row="11" Content="Address" Style="{StaticResource ModernLabel}"/>
+                <TextBox Grid.Row="12" x:Name="txtAddress" Style="{StaticResource ModernTextBox}" Margin="0,0,0,25"/>
+
+                <!-- Register Button -->
+                <Button Grid.Row="13" 
+                       x:Name="btnRegister" 
+                       Content="Create Account" 
+                       Click="Register_Click"
+                       Style="{StaticResource ModernButton}"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

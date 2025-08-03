@@ -1,0 +1,179 @@
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\Ki5\PRN212\DNASystem\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212-DNA\DNASystem (1)\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212-Group_Project\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\Ki5\PRN212\ProjectGroup\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Users\trung\Downloads\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212\SE1848-PRN212-Group4_mergeCode\SE1848-PRN212-Group4\SE1848-PRN212-Group4\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN212-DNA\SE1848-PRN212-Group4\DNASystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll

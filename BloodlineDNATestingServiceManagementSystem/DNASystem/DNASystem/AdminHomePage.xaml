@@ -1,0 +1,291 @@
+﻿<UserControl x:Class="DNASystem.AdminHomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DNASystem"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <UserControl.Resources>
+        <!-- Colors -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#7C3AED"/>
+        <SolidColorBrush x:Key="PrimaryHover" Color="#6D28D9"/>
+        <SolidColorBrush x:Key="PrimaryPressed" Color="#5B21B6"/>
+        <SolidColorBrush x:Key="PrimaryText" Color="#1e293b"/>
+        <SolidColorBrush x:Key="SecondaryText" Color="#64748b"/>
+        <SolidColorBrush x:Key="BorderBrush" Color="#e2e8f0"/>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#f8fafc"/>
+        <SolidColorBrush x:Key="CardBackground" Color="White"/>
+        <SolidColorBrush x:Key="SidebarBackground" Color="White"/>
+
+        <!-- Gradients -->
+        <LinearGradientBrush x:Key="MainBackground" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#f8fafc" Offset="0"/>
+            <GradientStop Color="#e2e8f0" Offset="1"/>
+        </LinearGradientBrush>
+
+        <!-- Logo/Brand Style -->
+        <Style x:Key="BrandStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Margin" Value="0,0,0,32"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Sidebar Button Style -->
+        <Style x:Key="SidebarButton" TargetType="Button">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Padding" Value="16,12"/>
+            <Setter Property="Margin" Value="0,0,0,8"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="{StaticResource SecondaryText}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f1f5f9"/>
+                    <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#e2e8f0"/>
+                    <Setter Property="Foreground" Value="{StaticResource PrimaryPressed}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Active Sidebar Button Style -->
+        <Style x:Key="ActiveSidebarButton" TargetType="Button" BasedOn="{StaticResource SidebarButton}">
+            <Setter Property="Background" Value="#ede9fe"/>
+            <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+        <!-- Sidebar Style -->
+        <Style x:Key="SidebarStyle" TargetType="Border">
+            <Setter Property="Background" Value="{StaticResource SidebarBackground}"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Margin" Value="0,0,20,0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" 
+                                    Direction="270" 
+                                    ShadowDepth="4" 
+                                    BlurRadius="12" 
+                                    Opacity="0.08"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Main Content Style -->
+        <Style x:Key="MainContentStyle" TargetType="Border">
+            <Setter Property="Background" Value="{StaticResource CardBackground}"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="32"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" 
+                                    Direction="270" 
+                                    ShadowDepth="4" 
+                                    BlurRadius="12" 
+                                    Opacity="0.08"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Icon Styles for Buttons -->
+        <Style x:Key="IconTextBlock" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="0,0,8,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Background="{StaticResource MainBackground}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar -->
+        <Border Grid.Column="0" Style="{StaticResource SidebarStyle}">
+            <Grid Margin="24">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Brand/Logo -->
+                <Border Grid.Row="0" 
+                        Background="#f8fafc" 
+                        CornerRadius="8" 
+                        Padding="16,12" 
+                        Margin="0,0,0,24">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock Text="🧬" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,8"/>
+                        <TextBlock Text="Dịch vụ xét nghiệm DNA" 
+                                   FontFamily="Segoe UI"
+                                   FontSize="14"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource PrimaryColor}"
+                                   TextAlignment="Center"
+                                   TextWrapping="Wrap"
+                                   LineHeight="18"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Navigation Buttons -->
+                <StackPanel Grid.Row="1" VerticalAlignment="Top">
+                    <Button x:Name="btnTrangchu" 
+                            Style="{StaticResource SidebarButton}" 
+                            Click="Home_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="🏠" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Trang chủ"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnHoSoCaNhan" 
+                            Style="{StaticResource SidebarButton}" 
+                            Click="Profile_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="👤" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Hồ sơ cá nhân"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnDashboard" 
+                            Style="{StaticResource SidebarButton}" 
+                            Click="Dashboard_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="📊" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Dashboard"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnQuanlytaikhoan" 
+                            Style="{StaticResource SidebarButton}" 
+                            Click="UserManagement_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="👥" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Quản lý tài khoản"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!-- Divider -->
+                    <Border Height="1" 
+                            Background="{StaticResource BorderBrush}" 
+                            Margin="0,24,0,24"/>
+
+                    <!-- Additional Options -->
+                    <Button Style="{StaticResource SidebarButton}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="⚙️" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Cài đặt"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource SidebarButton}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="❓" Style="{StaticResource IconTextBlock}"/>
+                            <TextBlock Text="Trợ giúp"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- Logout Button at Bottom - Always Visible -->
+                <Button Grid.Row="2" 
+                        Style="{StaticResource SidebarButton}" 
+                        Foreground="#dc2626"
+                        Margin="0,16,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Style="{StaticResource SidebarButton}" Foreground="#dc2626" Click="Logout_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="🚪" Style="{StaticResource IconTextBlock}" Foreground="#dc2626"/>
+                                <TextBlock Text="Đăng xuất" Foreground="#dc2626"/>
+                            </StackPanel>
+                        </Button>
+
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+
+        <!-- Main Content Area -->
+        <Border Grid.Column="1" Style="{StaticResource MainContentStyle}">
+            <!-- Welcome Header -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Header Section -->
+                <Border Grid.Row="0" 
+                        Background="#f8fafc" 
+                        CornerRadius="8" 
+                        Padding="20"
+                        Margin="0,0,0,24">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Chào mừng trở lại!" 
+                                       FontFamily="Segoe UI" 
+                                       FontSize="20" 
+                                       FontWeight="Bold" 
+                                       Foreground="{StaticResource PrimaryText}"
+                                       Margin="0,0,0,4"/>
+                            <TextBlock Text="Quản lý hệ thống xét nghiệm DNA hiệu quả" 
+                                       FontFamily="Segoe UI" 
+                                       FontSize="14" 
+                                       Foreground="{StaticResource SecondaryText}"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <Border Background="White" 
+                                    CornerRadius="6" 
+                                    Padding="12,8" 
+                                    Margin="0,0,8,0">
+                                <TextBlock Text="🔔" FontSize="16"/>
+                            </Border>
+                            <Border Background="White" 
+                                    CornerRadius="6" 
+                                    Padding="12,8">
+                                <TextBlock Text="Admin" 
+                                           FontFamily="Segoe UI" 
+                                           FontWeight="Medium" 
+                                           Foreground="{StaticResource PrimaryText}"/>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <!-- Dynamic Content Area -->
+                <ContentControl x:Name="MainContent" Grid.Row="1"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,239 @@
+﻿<Window x:Class="DNASystem.HomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DNASystem"
+        mc:Ignorable="d"
+        Title="Trang Chu" Height="911" Width="800">
+    <Window.Resources>
+        <Style x:Key="ServiceTabToggle" TargetType="ToggleButton">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="#1E90FF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Background" Value="#1E90FF"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#00BFFF"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="TextLikeButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <TextBlock Text="{TemplateBinding Content}"
+                       Foreground="{TemplateBinding Foreground}"
+                       FontSize="{TemplateBinding FontSize}"
+                       FontWeight="{TemplateBinding FontWeight}"
+                       TextWrapping="Wrap"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel>
+
+            <!-- Header giữ nguyên -->
+            <Grid Height="60" Background="White" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="DNA Testing VN"
+           FontSize="18" FontWeight="Bold"
+           VerticalAlignment="Center" Margin="20,0"/>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal"
+            VerticalAlignment="Center" Margin="0,0,10,0" >
+                    <Button x:Name="btnTrangChu" Content="Trang chủ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnTrangChu_Click"/>
+                    <Button x:Name="btnDichVu" Content="Dịch vụ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnDichVu_Click"/>
+                    <Button x:Name="btnVeChungToi" Content="Về chúng tôi" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnVeChungToi_Click"/>
+                    <Button x:Name="btnBlog" Content="Blog" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnBlog_Click"/>
+                    <Button x:Name="btnLienHeHeader" Content="Liên hệ" Style="{StaticResource TextLikeButton}" Margin="10,0" Foreground="Black" Click="btnLienHe_Click"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" Orientation="Horizontal"
+                    VerticalAlignment="Center" Margin="10,0,20,0" HorizontalAlignment="Right">
+                    <Button x:Name="btnUserMenu" Background="Transparent"
+                    BorderBrush="Transparent" Foreground="Black"
+                    Padding="10,5" Margin="5,0" Cursor="Hand"
+                    Click="btnUserMenu_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Name="txtWelcomeUser" Text="{Binding CurrentUserName, StringFormat='Welcome, {0}'}"  />
+                            <TextBlock Text=" 👤" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <Popup x:Name="UserPopup"
+           PlacementTarget="{Binding ElementName=btnUserMenu}"
+           Placement="Bottom"
+           StaysOpen="False">
+                    <Border Background="White" BorderBrush="#ccc" BorderThickness="1" CornerRadius="5"
+        Padding="10" Width="160">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="2"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Button x:Name="btnProfile" Content="Thông tin cá nhân" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnProfile_Click"/>
+                            <Button x:Name="btnHistory" Content="Lịch sử xét nghiệm" 
+Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+Padding="5" Cursor="Hand" Click="btnHistory_Click"/>
+
+                            <Button x:Name="btnLogout" Content="Đăng xuất" 
+                Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left"
+                Padding="5" Cursor="Hand" Click="btnLogout_Click"/>
+                        </StackPanel>
+                    </Border>
+                </Popup>
+            </Grid>
+
+            <!-- BANNER -->
+            <Border Background="#377DFF" Margin="0,0,0,20">
+                <StackPanel Margin="40">
+                    <TextBlock Text="Dịch vụ xét nghiệm ADN" FontSize="28" FontWeight="Bold" Foreground="White" TextAlignment="Center"/>
+                    <TextBlock Text="Chúng tôi cung cấp nhiều loại dịch vụ xét nghiệm ADN theo nhu cầu phù hợp với đặc điểm dân sự." FontSize="14" Foreground="White" TextAlignment="Center" Margin="0,10,0,0"/>
+                    <TextBlock Text="Tất cả các xét nghiệm được thực hiện với quy trình chuẩn mực cao và kiểm nghiệm thông tin tuyệt đối." FontSize="14" Foreground="White" TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- TABS DỊCH VỤ - ToggleButton chỉ chọn 1 -->
+            <StackPanel Margin="0,30,0,10" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <ToggleButton x:Name="btnHuyetThong" Content="Huyết thống" Style="{StaticResource ServiceTabToggle}" 
+                  IsChecked="True" Checked="ServiceTab_Checked"/>
+                    <ToggleButton x:Name="btnHanhChinh" Content="Hành chính" Style="{StaticResource ServiceTabToggle}" 
+                  Checked="ServiceTab_Checked"/>
+                    <ToggleButton x:Name="btnDanSu" Content="Dân sự" Style="{StaticResource ServiceTabToggle}" 
+                  Checked="ServiceTab_Checked"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- DANH SÁCH DỊCH VỤ -->
+            <ItemsControl x:Name="icServiceList" Margin="20" HorizontalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Width="200" Height="180" Margin="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="14"/>
+                                <TextBlock Text="{Binding Price, StringFormat={}{0:N0} VNĐ}" Margin="0,10,0,0" FontSize="12"/>
+                                <Button x:Name="btnChiTiet" Content="Xem chi tiết" Margin="0,10,0,0" Background="#1E90FF" Foreground="White" Height="30" Click="btnChiTiet_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <!-- PHƯƠNG THỨC THU MẪU -->
+            <StackPanel Margin="20">
+                <TextBlock Text="Phương thức thu mẫu" FontSize="20" FontWeight="Bold" Margin="0,20" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                    <Border Width="300" Padding="20" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <StackPanel>
+                            <TextBlock Text="Tự thu mẫu tại nhà" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="Bạn sẽ nhận bộ kit xét nghiệm qua bưu điện và gửi mẫu trở lại phòng xét nghiệm." TextWrapping="Wrap" FontSize="12" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Width="300" Padding="20" BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Margin="10">
+                        <StackPanel>
+                            <TextBlock Text="Thu mẫu tại cơ sở y tế" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="Bạn có thể đến trực tiếp phòng xét nghiệm gần nhất để được nhân viên hỗ trợ." TextWrapping="Wrap" FontSize="12" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- CTA ĐĂNG KÝ -->
+            <Border Background="#1E90FF" Margin="20" Padding="20">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Bạn đã sẵn sàng?" FontSize="16" FontWeight="Bold" Foreground="White" Margin="10" VerticalAlignment="Center"/>
+                    <Button x:Name="btnDangKy" Content="Đăng ký ngay" Background="White" Foreground="#1E90FF" Padding="10,5" Margin="10" Click="btnDangKy_Click"/>
+                    <Button x:Name="btnLienHeTuVan" Content="Liên hệ tư vấn" Background="#1E90FF" Foreground="White" Padding="10,5" Margin="10" Click="btnDangKyTuVan_Click"/>
+                </StackPanel>
+            </Border>
+
+            <!-- FOOTER -->
+            <Border Background="#0D1B2A" Margin="0,10,0,0" Padding="30">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="DNA Testing VN" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Chuyên nghiệp - Uy tín - Chính xác" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Trung tâm xét nghiệm ADN hàng đầu Việt Nam với hơn 10 năm kinh nghiệm." Foreground="White" FontSize="12" TextWrapping="Wrap"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1">
+                        <TextBlock Text="Dịch vụ" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Xét nghiệm huyết thống" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Xét nghiệm ADN hành chính" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Xét nghiệm ADN dân sự" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Text="Về chúng tôi" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Giới thiệu" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Tin tức" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Liên hệ" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="3">
+                        <TextBlock Text="Thông tin liên hệ" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="123 Đường XYZ, Quận ABC, TP. HCM" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="Hotline 1900 1234 567" Foreground="White" FontSize="12"/>
+                        <TextBlock Text="info@dnatestingvn.com" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
