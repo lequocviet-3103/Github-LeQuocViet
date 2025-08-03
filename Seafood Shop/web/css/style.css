@@ -1,0 +1,624 @@
+
+/*  LOGO  */
+body {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;  
+    height: auto;  
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+}
+
+/*  MENU   */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: hsl(182, 91%, 71%);
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    font-size: 28px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/*  SEARCH BAR & ICONS  */
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+.icons input {
+    padding: 8px 15px;
+    border: 1px solid #150d0d;
+    border-radius: 15px;
+    outline: none;
+    width: 180px;
+    font-size: 14px;
+}
+
+
+
+.fa-shopping-cart{
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(24, 23, 23);
+    transition: color 0.3s ease;
+}
+
+
+
+.hiden-login .fa-user {
+    font-size: 35px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(24, 23, 23);
+    transition: color 0.3s ease;
+}
+
+.hiden-login {
+   position: relative;
+   display: inline-block;
+}
+
+.hiden-login a{
+   display: block;
+   text-decoration: none;
+   color: #333;
+   padding: 8px 12px;
+   font-size: 20px;
+}
+
+.hiden-login i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hiden-login .nemu-login {
+    position: absolute;
+    top: 46px;
+    left: -46px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+
+.hiden-login:hover .nemu-login {
+    display: flex;
+   
+}
+
+.nemu-login a {
+    padding: 8px;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+}
+
+.nemu-login a:hover {
+    color: white;
+    font-size: 20px;
+    background: orangered;
+}
+
+
+.icons i:hover {
+    color: orangered;
+}
+
+
+/*  BANNER  */
+
+.banner {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*  ABOUT SECTION  */
+
+.about {
+    background-color: hsl(182, 91%, 71%);
+    padding: 50px 20px;
+    color: rgb(19, 17, 17); 
+    font-family: 'Kaushan Script', 'Pacifico', 'Great Vibes', cursive;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* DISHES */
+
+.about-images {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.about-images img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.about-images img:first-child {
+    border-radius: 0; /* Hình vuông */
+}
+
+.about-images img:last-child {
+    border-radius: 50%; /* Hình tròn */
+}
+
+/*  RESPONSIVE DESIGN            */
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-images {
+        justify-content: center;
+    }
+    /*product page*/
+}
+html {
+    scroll-behavior: smooth;
+}.featured-dishes {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: hsl(182, 91%, 71%);
+}
+
+.dish-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.dish-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.dish-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.price {
+    color: orange;
+    font-weight: bold;
+}
+/* Container chua mon an */
+.dish-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dish-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/* full hinh anha */
+.dish-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: white;
+}
+/*layout tren thiet bi mobile*/
+@media (max-width: 992px) {
+    .dish-container {
+        grid-template-columns: repeat(2, 1fr); /*2 cot tren 1 man hinh*/
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .dish-container {
+        grid-template-columns: repeat(1, 1fr); /*1 cot tren mobile*/
+        grid-gap: 15px;
+    }
+}
+.dish-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; /* khoang cach cac the */
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*product details*/
+.btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-section {
+    background: hsl(182, 91%, 71%);
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.product-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail-btn {
+    padding: 8px 12px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.detail-btn:hover {
+    background: #333;
+}
+
+.product-content {
+    flex-grow: 1;
+}
+
+.product-search {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.product-search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.product-card {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.product-price {
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-card img {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* Customer Reviews Section */
+.customer-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(182, 91%, 71%);
+    padding: 80px 200px;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 30px; /* Khoảng cách giữa hai cột */
+}
+
+/* Left Column */
+.review-left {
+    flex: 1;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.review-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.detail-btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.detail-btn:hover {
+    background: orange;
+}
+
+/* Right Column - Review List */
+.review-right {
+    flex: 2;
+}
+
+.review-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.review-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.review-content {
+    text-align: left;
+}
+
+.review-stars {
+    color: orange;
+}
+
+/* Footer Section */
+.footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 20px;
+}
+
+.social-icons a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pagination a, .pagination span {
+    display: inline-block; 
+    padding: 8px 12px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    background: white;
+}
+.pagination a:hover{
+    background: #007bff;
+    color: white;
+}
+.pagination .current-page {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+.contact-section {
+    text-align: center; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    width: 100%; 
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-section h2 {
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SeafoodController</servlet-name>
+        <servlet-class>CustomersController.Controller.SeafoodController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SignupController</servlet-name>
+        <servlet-class>CustomersController.Controller.SignupController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>CustomersController.Controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeafoodController</servlet-name>
+        <url-pattern>/SeafoodController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignupController</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            300
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>SeafoodController</welcome-file>
+    </welcome-file-list>
+    <!--    <welcome-file-list>
+    <welcome-file>SeafoodController?action=list</welcome-file>
+</welcome-file-list>-->
+<servlet>
+        <servlet-name>ShoppingCartServlet</servlet-name>
+        <servlet-class>AdminController.Controller.ShoppingCartServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>LoginAdminController</servlet-name>
+        <servlet-class>AdminController.Controller.LoginAdminController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>AdminController.Controller.ProductController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CustomersController</servlet-name>
+        <servlet-class>AdminController.Controller.CustomersController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InvoiceController</servlet-name>
+        <servlet-class>AdminController.Controller.InvoiceController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomeController</servlet-name>
+        <servlet-class>AdminController.Controller.HomeController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginAdminController</servlet-name>
+        <url-pattern>/LoginAdminController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/ProductController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CustomersController</servlet-name>
+        <url-pattern>/CustomersController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InvoiceController</servlet-name>
+        <url-pattern>/InvoiceController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeController</servlet-name>
+        <url-pattern>/HomeController</url-pattern>
+    </servlet-mapping>
+</web-app>

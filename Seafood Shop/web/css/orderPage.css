@@ -1,0 +1,179 @@
+.container {
+    margin-left: 250px; /* Điều chỉnh theo kích thước thực tế của sidebar */
+    margin-top: 100px;  /* Nếu header cũng bị chồng lên */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffba08;
+}
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Căn chỉnh toàn bộ trang */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+/* Bảng quản lý đơn hàng */
+table {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Tiêu đề bảng */
+tr:first-child {
+    background-color: #005f73;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Ô dữ liệu */
+td {
+    padding: 18px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Căn giữa nội dung */
+td:nth-child(1), 
+td:nth-child(3), 
+td:nth-child(4), 
+td:nth-child(5), 
+td:nth-child(6) {
+    text-align: center;
+}
+
+/* Màu sắc cho trạng thái đơn hàng */
+td.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+td.delivered {
+    color: green;
+    font-weight: bold;
+}
+
+td.cancelled {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Hiệu ứng hover */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+/* Search & Icons */
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.icons i {
+    font-size: 22px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    color: #ffba08;
+}

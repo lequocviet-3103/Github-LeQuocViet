@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seafood Shop</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                    <span>Seafood Shop</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#menu">Menu</a></li> 
+                        <li><a href="#about">About</a></li> 
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+                <div class="icons">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <section class="banner">
+            <img src="img/banner.jpg" alt="Seafood Banner">
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>Seafood Shop</h1>
+                    <p>
+                        Our restaurant always puts customers first, dedicated to serving, bringing customers the best experiences.
+                        Dishes with exclusive recipes will bring new flavors to diners. Seafood Restaurant sincerely thanks.
+                    </p>
+                </div>
+                <div class="about-images">
+                    <img src="img/dish 1.jpg" alt="Dish 1">
+                    <img src="img/dish 2.jpg" alt="Dish 2">
+                </div>
+            </div>
+        </section>
+        <!--product dish-->
+        <section id="menu" class="featured-dishes">
+            <h2>Featured Dishes</h2>
+            <div class="dish-container">
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 1.webp" alt="Dish 1">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 2.jpg" alt="Dish 2">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 3.jpg" alt="Dish 3">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 4.jpg" alt="Dish 4">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 5.jpg" alt="Dish 5">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+                <div class="dish-card">
+                    <img src="img/product dish/product dish 6.jpg" alt="Dish 6">
+                    <p>NAME</p>
+                    <p class="price">PRICE</p>
+                    <p>DETAIL</p>
+                </div>
+            </div>
+        </section>
+        <div class="cart-logo">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <section class="product-section">
+            <div class="product-container">
+                <div class="product-sidebar">
+                    <h3>PRODUCT</h3>
+                    <button class="detail-btn">VIEW DETAIL</button>
+                </div>
+                <div class="product-content">
+                    <div class="product-search">
+                        <form action="search.jsp" method="get">
+                            <input type="text" name="query" placeholder="Search for seafood">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+
+                    </div>
+
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <img src="img/details/detail 1.jpg" alt="TOM HUM HAP BIA">
+                            <p class="product-name">TOM HUM HAP BIA</p>
+                            <p class="product-price">PRICE: $19.09</p>
+
+                        </div>
+
+                        <div class="product-card">
+                            <img src="img/details/detail 2.jpg" alt="VI CA">
+                            <p class="product-name">VI CA</p>
+                            <p class="product-price">PRICE: $17.99</p>
+
+                        </div>
+
+                        <div class="product-card">
+                            <img src="img/details/detail 3.jpg" alt="HAU TAI CHANH">
+                            <p class="product-name">HAU TAI CHANH</p>
+                            <p class="product-price">PRICE: $20.09</p>
+
+                        </div>
+
+                        <div class="product-card">
+                            <img src="img/details/detail 4.jpg" alt="CUA HOANG DE SOT BO TOI">
+                            <p class="product-name">CUA HOANG DE SOT BO TOI</p>
+                            <p class="product-price">PRICE: $17.99</p>
+
+                        </div>
+
+                        <div class="product-card">
+                            <img src="img/details/detail 5.jpg" alt="SASIMI CA HOI">
+                            <p class="product-name">SASIMI CA HOI</p>
+                            <p class="product-price">PRICE: $29.99</p>
+
+                        </div>
+
+                        <div class="product-card">
+                            <img src="img/details/detail 6.jpg" alt="TRUNG CA TAM">
+                            <p class="product-name">TRUNG CA TAM</p>
+                            <p class="product-price">PRICE: $17.99</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Customer Reviews Section -->
+        <section class="customer-reviews">
+            <h2>CUSTOMER REVIEWS</h2>
+            <button class="detail-btn">Write a Review</button>
+
+            <div class="review-box">
+                <img src="profile1.png" alt="Customer 1">
+                <div class="review-content">
+                    <strong>Customer 1</strong>
+                    <p><i>COMMENT:</i></p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <img src="profile2.png" alt="Customer 2">
+                <div class="review-content">
+                    <strong>Customer 2</strong>
+                    <p><i>COMMENT:</i></p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <img src="profile3.png" alt="Customer 3">
+                <div class="review-content">
+                    <strong>Customer 3</strong>
+                    <p><i>COMMENT:</i></p>
+                    <div class="review-stars">★★★★★</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section id="contact" class="contact">
+            <footer class="footer">
+                <p>Email: contact@example.com | Phone: +123456789 | Address: 123 Street, City</p>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+                <p>Pay with: <img src="" alt="VNPay" width="80"></p>
+
+
+            </footer>
+
+        </section>   
+
+
+
+    </body>
+</html>

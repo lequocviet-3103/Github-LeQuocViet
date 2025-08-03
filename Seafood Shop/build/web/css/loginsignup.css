@@ -1,0 +1,345 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+ 
+    Created on : Mar 10, 2025, 11:01:02 PM
+    Author     : Lê Quốc Việt
+ */
+/* login*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 255, 255);
+    min-height: 100vh;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.login-form {
+    position: relative;
+    padding: 40px 40px 50px;
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black; 
+}
+
+.input-box {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+ .input-box input {
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+
+.login-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6347, #1e90ff);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition:  0.3s;
+    margin-top: 60px;
+}
+
+.login-btn:hover {
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+
+}
+
+.signup-link {
+    margin: 50px 0;
+
+}
+
+.signup-link p {
+    font-size: 25px;
+}
+
+.signup-link a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 63, 5);
+}
+
+ /*sigup*/ 
+
+.signup {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 255, 255);
+    min-height: 100vh;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.signup-form {
+    position: relative;
+    padding: 40px 40px 50px;
+    background-color: pink;
+    box-shadow: 10px;
+    width: 400px;
+    height: 630px;
+    border-radius: 20px;
+}
+
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black; 
+}
+
+.input-box {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+ .input-box input {
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+
+.signup-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6347, #1e90ff);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition:  0.3s;
+    margin-top: 40px;
+}
+
+.signup-btn:hover {
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+
+}
+
+
+/*product details*/
+
+.container-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img-item {
+    width: 400px;
+    height: 420px;
+    
+    border-radius: 2px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-item img{
+    width: 350px;
+    height: 380px;
+    border-radius: 5px; 
+}
+
+.details {
+    background-color: aqua;
+    width: 50%;
+    height: 550px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.details h1 {
+    color: orangered;
+    padding-bottom: 30px;
+}
+
+.product-detail {
+    font-size: 25px;
+}
+
+.details .price {
+    font-size: 40px;
+    color: orangered;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.product-weight {
+    display: flex;
+    
+}
+
+.product-weight p {
+    font-size: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.product-weight .counter-box {
+    border: 2px solid black;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.btn-minus {
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.btn-plus {
+    width: 40px;
+    height: 25px;
+}
+
+.count {
+    background-color: #fff;
+    padding: 0 30px;
+}
+
+.buy-product {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 90px;
+}
+
+.buy-product .add-cart, 
+.buy-product .buy-now {
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 280px; 
+    height: 80px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-cart {
+    background-color: white;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.add-cart .icon-cart {
+    color: orangered;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.buy-now {
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+}
+.buy-product {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart {
+    background: white;
+    color: #FF6600;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-to-cart i {
+    color: #FF6600;
+    font-size: 20px;
+}
+
+.add-to-cart:hover {
+    background: #FFE6D5;
+}
+
+.buy-now {
+    background: #FF6600;
+    color: white;
+    border: none;
+}
+
+.buy-now:hover {
+    background: #E65C00;
+}
